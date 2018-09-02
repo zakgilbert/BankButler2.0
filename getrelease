@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sccs get userInterface.cpp
+sccs get userInterface.h
+sccs get llist.cpp
+sccs get llist.h
+sccs get main.cpp
+sccs get debug.h
+sccs get -r1.5 Makefile
+sccs get -r1.5 record.h
